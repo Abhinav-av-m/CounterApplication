@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.counter {
+  display: grid;
+  height: 100vh;
+}
+.btnContainer {
+  place-self: center;
+  width: 300px;
+  height: 500px;
+  padding: 5px;
+  border-radius: 7cap;
+  border: 5px solid black;
+  background-color: yellowgreen;
+  color: #ffffff;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.counterLabel {
+    font-size: 10em;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  background-color: transparent;
+  padding: 7px;
+  margin-bottom: 3px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.decreaseBtn{
+  background-color: green;
+}
+.resetBtn{
+  background-color: red;
+}
+.increaseBtn{
+  background-color: blue;
+}
+.text {
+    font-size: 5em;
+    color: black;
+    text-align: center;
+}
+.button-settings,
+.button-reset {
+    background-color: transparent;
+    padding: 5px;
+    margin-bottom: 2px;
+    border-radius: 40%;
+    font-weight: 600;
+    color: #ffffff;
+}
+.button i {
+  font-size: 2em;
+}
